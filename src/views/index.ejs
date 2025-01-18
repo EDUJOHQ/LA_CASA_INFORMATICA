@@ -24,9 +24,9 @@
             <p
               class="text-center text-lg md:text-2xl text-white leading-snug md:text-left mt-4 md:mt-0"
             >
-              Donde cada detalle está pensado para resaltar tu
-              <br class="hidden md:block" />
-              Estilo y marcar la diferencia.
+              Donde cada detalle está pensado para resaltar tu estilo y marcar
+              la diferencia.
+              <!--<br class="hidden md:block" />-->
             </p>
           </div>
           <div class="flex justify-center w-full md:w-1/2">
@@ -220,11 +220,11 @@
     <!--BOT TIENDA-->
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
-      chat-title="Tienda"
-      agent-id="214f80e5-ab5a-45d4-9251-f646e8255686"
+      intent="WELCOME"
+      chat-title="URBAN_THREADS"
+      agent-id="19859be0-7ab6-414a-baf4-055672da6f7a"
       language-code="es"
     ></df-messenger>
-    
   </body>
   <%- include('partials/footer') %>
 </html>
