@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f7f7f7;
-    color: #333;
+    color: #252525;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 .hero h2 {
