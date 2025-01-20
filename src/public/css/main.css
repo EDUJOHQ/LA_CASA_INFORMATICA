@@ -5,99 +5,33 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.header {
-  height: 100vh;
-  max-height: 900px;
-  background: url(../img/fon-urban.jpg) no-repeat center center fixed;
-  background-size: cover;
-  min-height: 750px;
+.header-bg {
+  background-image: url("ruta-de-tu-imagen.jpg"); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover; /* Asegura que la imagen cubra todo el header */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 100vh; /* Hace que el header ocupe toda la altura de la pantalla */
+  position: relative; /* Permite que los elementos hijos se posicionen correctamente */
 }
 
-.header .overlay {
+.overlay {
+  position: absolute; /* Permite que el texto se posicione encima de la imagen */
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
-  background: rgba(9, 9, 9, 0.75);
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Agrega una capa oscura para mejorar la visibilidad del texto */
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-}
-
-.header-title {
-  font-size: 2.4rem;
-  font-weight: bold;
-  opacity: 0.8;
-  color: #343a40;
-}
-
-.header-mini {
-  min-height: 24rem;
-  height: 24rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 1rem;
-  background: #ffa1b4 !important;
-}
-
-.display-1 {
-  font-size: 6rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.display-2 {
-  font-size: 5rem;
-  line-height: 1.5;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.display-3 {
-  font-size: 4.5rem;
-  font-weight: 300;
-  line-height: 1.5;
-}
-.ti-home:before {
-	content: "\e69b";
-}
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
-  }
-  
-.display-4 {
-  font-size: 1.2rem;
-  font-weight: 70;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 20px;
 }
 
 main {
