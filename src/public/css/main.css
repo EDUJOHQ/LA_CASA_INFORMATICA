@@ -18,7 +18,7 @@ header {
 .header {
     height: 100vh;
     max-height: 900px;
-    background: url(../imgs/fon-urban.jpg) no-repeat center center fixed;
+    background: url(src/public/img/fon-urban.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height: 750px;
 }
